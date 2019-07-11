@@ -1,0 +1,115 @@
+.navigation {
+    position: relative;
+    display: none;
+    transition: all ease-in-out .5s;
+
+
+    margin-left: 7.5rem;
+    width: 30.5rem;
+    height: 100%;
+    position: fixed;
+    z-index: 998;
+    background: rgb(226, 225, 225);
+
+    &__heading {
+        padding: 4.8rem 2rem;
+    }
+
+    &__heading-full {
+        text-align: center;
+        padding: 1rem;
+        font-family: 'Permanent Marker',
+            cursive;
+        font-size: 3rem;
+    }
+
+    &__menu {
+        position: relative;
+        top: 0%;
+    }
+
+
+    &__close-icon {
+        position: absolute;
+        right: 3rem;
+        top: 2rem;
+    }
+
+}
+
+
+.navigation__active {
+    transition: all ease-in-out 1s;
+    display: block;
+}
+
+.menu-list {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Permanent Marker',
+        cursive;
+
+
+    &__items {
+        padding: 1.5rem 0;
+
+    }
+
+    &__links {
+        text-decoration: none;
+        padding: 2rem 0;
+        color: $darkgray;
+    }
+
+
+
+    &__links:hover {
+        color: $black;
+        text-decoration: none;
+    }
+
+}
+
+.social {
+    padding: 1rem;
+    position: relative;
+    top: 10%;
+
+    &__list {
+        margin: 0;
+        padding: 0;
+    }
+
+    &__items {
+        list-style: none;
+    }
+
+    &__links {
+        text-decoration: none;
+        padding: 10px;
+    }
+
+    &__icons {
+        padding: .5rem;
+        font-size: 2rem;
+        color: $darkgray;
+    }
+}
+
+
+.social__links:hover {
+    .social__icons {
+        color: $black;
+    }
+}
+
+
+
+
+
+.copyright {
+    font-size: 1.2rem;
+    position: relative;
+    margin: 2rem 0;
+    padding: 2rem;
+}

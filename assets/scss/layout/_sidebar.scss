@@ -1,0 +1,30 @@
+.sidebar {
+    width: 80px;
+    height: 100%;
+    background: $darkgray;
+    z-index: 999;
+    position: fixed;
+
+    &__logo {
+        padding: 50px 10px;
+    }
+
+    &__logo-e {
+        padding: 1rem;
+        font-family: 'Permanent Marker',
+            cursive;
+        font-size: 4rem;
+    }
+
+    &__menu-icon {
+        padding: 20px;
+        position: relative;
+        top: 30%;
+    }
+
+
+}
+
+.sidebar__menu-icon__hide {
+    display: none;
+}
